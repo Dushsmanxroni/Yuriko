@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-*👋 [Hᴇʟʟᴏ](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) {} !*
+*[👋](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) Hᴇʟʟᴏ {} !*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -117,7 +117,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*✗ [MAIN](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) COMMANDS ✗*
+*[✗](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) MAIN COMMANDS ✗*
 
 ✗ /start - `Starts me! Your probably already used this.`
 ✗ /help - `Click this I ll let you know about myself!`

@@ -117,7 +117,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*[✗]("https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg") MAIN COMMANDS ✗*
+*✗MAIN COMMANDS ✗*
 
 ✗ /start - `Starts me! Your probably already used this.`
 ✗ /help - `Click this I ll let you know about myself!`

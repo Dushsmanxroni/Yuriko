@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg"
 
 PM_START_TEXT = """
-*[👋]("https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg") Hᴇʟʟᴏ {} !*
+*👋 yurikorobot_IMG, Hᴇʟʟᴏ {} !*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*

@@ -96,7 +96,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="yuriko_"),
+            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="tiana_"),
     ],
     [
         InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),

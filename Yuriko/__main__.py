@@ -79,10 +79,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+yurikorobot_IMG = "https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg"
 
 PM_START_TEXT = """
-*[👋](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) Hᴇʟʟᴏ {} !*
+*[👋]("https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg") Hᴇʟʟᴏ {} !*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -117,7 +117,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*[✗](https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg) MAIN COMMANDS ✗*
+*[✗]("https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg") MAIN COMMANDS ✗*
 
 ✗ /start - `Starts me! Your probably already used this.`
 ✗ /help - `Click this I ll let you know about myself!`

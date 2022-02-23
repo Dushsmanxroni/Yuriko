@@ -240,22 +240,8 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
+                disable_web_page_preview=False,
             )
-    else:
-        )
-    else:
-          first_name = update.effective_user.first_name
-          update.effective_message.reply_photo(
-                yurikorobot_IMG, caption="""*👋 Hᴇʟʟᴏ {} !*
-    ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-    ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
-    ────────────────────────
-    × *Uᴘᴛɪᴍᴇ:* `{}`
-    × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
-    ────────────────────────
-    ✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ Vᴇɴᴏᴍ!*""" 
-           ),
-        )
     else:
         update.effective_message.reply_photo(
             yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(

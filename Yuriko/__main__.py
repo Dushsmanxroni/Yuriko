@@ -81,14 +81,11 @@ def get_readable_time(seconds: int) -> str:
 
 yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
-PM_START_TEXT = """✗ I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ\n
-✗Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!\n
-────────────────────────\n
-×  Uᴘᴛɪᴍᴇ: `{}`
-× `{}` Uꜱᴇʀ, Aᴄʀᴏꜱꜱ `{}` Cʜᴀᴛꜱ.
-────────────────────────\n
-✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [Tᴇᴀᴍ Vᴇɴᴏᴍ]("t.me/DARKAMANSUPPORT")\n !
-"""
+PM_START_TEXT = """[✨](https://te.legra.ph/file/6f1fe2568414f8a052808.jpg)𝐇ᴇʏ 𝐓ʜᴇʀᴇ 𝐌ʏ 𝐍ᴀᴍᴇ 𝐈s ✨𝐀ʟᴇxᴀ 𝐑ᴏʙᴏᴛ✨ 𝐈'ᴍ 𝐀 𝐏ᴏᴡᴇʀғᴜʟʟ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇʀ 𝐁ᴏᴛ 𝐖ɪᴛʜ 𝐂ᴏᴏʟ 𝐌ᴏᴅᴜʟᴇs. 𝐅ᴇʟʟ 𝐅ʀᴇᴇ 𝐓ᴏ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘs 𝐇ɪᴛ 𝐇ᴇʟᴘ 𝐁ᴜᴛᴛᴏɴ 𝐓ᴏ 𝐊ɴᴏᴡ 𝐌ʏ 𝐂ᴏᴍᴍᴀɴᴅs✨\n
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+✘ 𝐉ᴏɪɴ ☞︎︎︎ [𝐒ᴜᴘᴘᴏʀᴛ](t.me/DARKAMANSUPPORT)
+✘ 𝐉ᴏɪɴ ☞︎︎︎ [𝐂ʜᴀɴɴᴇʟ](t.me/DARKAMANCHANNEL)
+➖➖➖➖➖➖➖➖➖➖➖➖➖\n
 
 buttons = [
     [

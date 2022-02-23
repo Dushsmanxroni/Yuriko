@@ -79,11 +79,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg"
+yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
-yurikorobot_IMG,
 PM_START_TEXT = """
-*👋 Hᴇʟʟᴏ {} !*
+*👋 Hello {} !*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -91,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ Vᴇɴᴏᴍ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: [Tᴇᴀᴍ Vᴇɴᴏᴍ](t.me/DARKAMANSUPPORT)!*
 """
 
 buttons = [
@@ -118,7 +117,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*✗MAIN COMMANDS ✗*
+*✗ MAIN COMMANDS ✗*
 
 ✗ /start - `Starts me! Your probably already used this.`
 ✗ /help - `Click this I ll let you know about myself!`
@@ -240,27 +239,8 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
+                disable_web_page_preview=False,
             )
-
-    else:
-          first_name = update.effective_user.first_name
-          update.effective_message.reply_photo(
-                yuriko_IMG, caption="""*👋 Hᴇʟʟᴏ {} !*
-✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
-────────────────────────
-× *Uᴘᴛɪᴍᴇ:* `{}`
-× `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
-────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ Vᴇɴᴏᴍ!*
-"""format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                parse_mode=ParseMode.MARKDOWN,              
-            )
-
     else:
         update.effective_message.reply_photo(
             yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(

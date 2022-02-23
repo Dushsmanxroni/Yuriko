@@ -81,8 +81,6 @@ def get_readable_time(seconds: int) -> str:
 
 yurikorobot_IMG = "https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg"
 
-first_name = update.effective_user.first_name
-            update.effective_message.reply_photo(
 yurikorobot_IMG,
 PM_START_TEXT = """
 *👋 Hᴇʟʟᴏ {} !*
@@ -233,6 +231,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
+            update.effective_message.reply_photo("https://te.legra.ph/file/a718ff3edfc554fdfddd7.jpg")
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
                     escape_markdown(first_name),

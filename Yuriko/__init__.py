@@ -71,6 +71,7 @@ if ENV:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     INFOPIC = bool(os.environ.get("INFOPIC", True))
+    AMANOP_IMG = os.environ.get("AMANOP_IMG", "https://te.legra.ph/file/8f635732ca3882c43fef9.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))

@@ -16,6 +16,7 @@ from Yuriko import (
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
+    AMANOP_IMG
     OWNER_ID,
     PORT,
     SUPPORT_CHAT,
@@ -80,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 yurikorobot_IMG = "https://te.legra.ph/file/8f635732ca3882c43fef9.jpg"
+AMANOP_IMG = f"{AMANOP_IMG}"
 
-PM_START_IMG = "https://te.legra.ph/file/8f635732ca3882c43fef9.jpg" 
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
+✗ *"f"{AMANOP_IMG}" I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`

@@ -81,12 +81,11 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 yurikorobot_IMG = "https://te.legra.ph/file/8f635732ca3882c43fef9.jpg"
-AMANOP_IMG = f"{AMANOP_IMG}"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
+✗ *[I](https://te.legra.ph/file/8f635732ca3882c43fef9.jpg)'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
@@ -136,10 +135,13 @@ MIGRATEABLE = []
 HELPABLE = {}
 STATS = []
 USER_INFO = []
+USER_BOOK = []
 DATA_IMPORT = []
 DATA_EXPORT = []
 CHAT_SETTINGS = {}
 USER_SETTINGS = {}
+
+GDPR = []
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("Yuriko.modules." + module_name)

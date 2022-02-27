@@ -86,7 +86,7 @@ AMANOP_IMG = f"{AMANOP_IMG}"
 PM_START_TEXT = """
 *👋 Hello {} !*
 
-✗ *" {AMANOP_IMG} I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
+✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
 ────────────────────────
 × *Uᴘᴛɪᴍᴇ:* `{}`
@@ -232,6 +232,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
+            update.effective_message.reply_photo(f"{AMANOP_IMG}")
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
@@ -243,7 +244,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
                 disable_web_page_preview=False,
             )
-    else:
+    else: 
         update.effective_message.reply_photo(
             yurikorobot_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
